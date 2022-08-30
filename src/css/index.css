@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  margin: 0px;
+}
+
+body {
+  margin: 0px;
+}
+
+.header {
+  position: fixed;
+  top: 0px;
+  height: 50px;
+  width: 100%;
+  background-color: #046e8f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input[type='text'] {
+  padding: 6px;
+  font-size: 17px;
+  border: none;
+}
+input:focus {
+  outline: none;
+  
+}
+
+button {
+  padding: 6px 10px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+  margin-left: -4px;
+}
+
+.gallery {
+  margin-top: 80px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap:20px;
+}
+
+.photo-card{ 
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+  width: 400px;
+  height: 300px;
+}
+
+.photo-card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
+}
+
+.picture {
+  width: 400px;
+  height: 200px;
+  background-size: cover;
+}
+a {
+  text-decoration: none;
+}
+.info {
+  font-family: Helvetica;
+  color: black;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  font-weight: normal;
+}
+.info-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.info-item span {
+  font-size: 12px;
+}
+
